@@ -1,6 +1,18 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "Frontend",
-  "main": "handler.js"
+  "description": "Frontend para o desafio Bondy",
+  "main": "handler.js",
+  "module": "common",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-request": "^7.2.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
